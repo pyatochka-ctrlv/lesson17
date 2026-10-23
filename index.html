@@ -810,7 +810,7 @@ const ROUNDS = [
         fb.append(h('div', {class:'coord ' + anim}, `X = ${x}, Y = ${y}`),
                   h('div', {class:anim, style:'display:flex;flex-direction:column;gap:12px'}, vert, hor));
       } else {
-        fb.append(h('div', {class:'muted'}, 'Вислухай дітей і клікни клітинку, яку вони назвали.'));
+        fb.append(h('div', {class:'muted'}, 'Де скриня? Назви клітинку: спершу X, потім Y!'));
       }
       return h('div', {class:'r2wrap'}, tagzone, gridwrap, fb);
     },
